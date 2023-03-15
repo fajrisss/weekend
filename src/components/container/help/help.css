@@ -1,0 +1,148 @@
+.help_container{
+  margin-top: 266px;
+}
+
+p{
+  font-size: 18px;
+}
+
+h1{
+  font-size: 32px;
+}
+
+.help_text{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 67px;
+  text-align: center;
+  align-items: center;
+}
+
+.pov>p{
+  width: 619px;
+  margin-top: 30px;
+}
+
+.resource>p{
+  width: 619px;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+ .content>img {
+  width: 311px;
+  height: 176px;
+  margin: 5px;
+}
+
+.help_desc{
+  display: flex;
+  gap: 1rem;
+  padding: 0 1rem;
+  justify-content: space-between;
+  width: 316px;
+  height: 72px;
+  background-color:rgba(0, 0, 0, 0.5);
+  background-image: transparent;
+  align-items: center;
+  position: absolute;
+  font-weight: 500;
+}
+
+.help_content > h1, .help_content-detail>h1{
+  text-align: center;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.help_content{
+  color: white;
+}
+
+.arrow_btn{
+  padding: 10px;
+  border-radius: 50%;
+  color: #0B24FB;
+  font-size: 12px;
+}
+
+.set_text{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 127px;
+  height: 325px;
+}
+
+.set_text>p{
+  margin-top: 30px;
+  text-align: center;
+  z-index: 2;
+}
+
+.set_img{
+  position: absolute;
+  z-index: 1;
+}
+
+
+.help_content{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.wrap>img{
+  width: 311px;
+  height: 176px;
+}
+
+.content_help{
+  display: flex;
+  gap: 1rem;
+  padding: 0 1rem;
+  justify-content: space-between;
+  width: 311px;
+  height: 72px;
+  background-color:rgba(255, 255, 255, 0.5);
+  background-image: transparent;
+  align-items: center;
+  font-weight: 500;
+  gap: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+ .resource>p , .pov>p, .set_text>p{
+  width: 90%;
+ } 
+
+ .help_text, .set_text>p{
+  padding-left: 2.3rem;
+  text-align: left;
+ }
+
+ .help_content{
+  flex-direction: column;
+  align-items: center;
+ }
+
+ .content_help{
+  top: auto;
+ }
+
+ .set{
+  display: flex;
+  flex-direction: column-reverse;
+ }
+
+ .set_text>p, .set_text>h1{
+  text-align: left;
+ }
+
+ .set_img{
+  position: inherit;
+}
+ 
+}

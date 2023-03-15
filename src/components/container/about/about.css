@@ -1,0 +1,44 @@
+.about_container{
+  height: 731.43px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  height: 768px;
+}
+
+.about_title{
+  text-align: center;
+  padding: 67px 0;
+} 
+
+.about_title>h1{
+  font-size: 52px;
+  font-weight: 900;
+}
+
+.about_title>p{
+  font-size: 21px;
+  font-style: italic;
+}
+
+.about_detail{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about_btn{
+  position: absolute;
+  padding: 20px 83.5px;
+  background-color: white;
+  border-radius: 2rem;
+  top: 490px;
+}
+
+@media only screen and (max-width: 600px) {
+  .about_btn{
+    top: 555px;
+  }
+
+}

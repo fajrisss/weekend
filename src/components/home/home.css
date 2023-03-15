@@ -1,0 +1,74 @@
+.header_container{
+  display: flex;
+  justify-content: center;
+  margin: 17px 0;
+}
+
+.header_content{
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 75%;
+  gap: 13px;
+}
+
+.ava_detail>small{
+  font-size: 12px;
+}
+
+.ava_name{
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.home_container{
+  background: url('/src/assets/img/bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer_container{
+  height: 67px;
+  display: flex;
+  justify-content: center;
+  background-color: #0B24FB ;
+  align-items: center;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  width: 100%;
+  max-width: 75%;
+}
+
+.copy>span{
+  font-weight: 500;
+}
+
+.copy{
+  
+  padding: 0.3rem 0;
+  border: 1px solid #0B24FB;
+}
+
+.copy , .version{
+  font-weight: 300;
+}
+
+.version{
+  border: 2px solid white;
+  padding:  0.2rem 0.5rem;
+  border-radius: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .header_content, .footer{
+    max-width: 90%;
+  }
+
+
+  
+}
